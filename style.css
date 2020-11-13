@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* start header css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+.logoimage{
+    width: 150px;
+    height: 70px;
+    border-radius: 50%;
+}
+.header{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: white;
+
+}
+.links ul{
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+}
+.links ul li{
+  margin: 10px;
+  padding: 5px;
+}
+.links ul li a{
+   text-decoration: none;
+}
+.headerdiv{
+   align-self: center;
+}
+.searchInput form input{
+   
+    border-radius: 20px;
+    width: 100%;
+    height: 60px;
+    background-color:white;
+    
+}
+.searchInput form input:focus{
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+}
+.searchInput form{
+    position: relative;
+}
+.searchInput form img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    background-color:  rgb(209, 206, 206);
+}
+
+
+.logo{
+    
+    flex-grow: 1;
+
+}
+.logo a{
+    padding: 20px;
+}
+.searchInput{
+  
+    flex-grow: 6;
+}
+
+.links{
+  flex-grow: 4;
+ 
+}
+.social{
+  flex-grow: 1;
+}
+*/
+.social a {
+  padding:10px;
+  margin: 10px;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.social ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+/* end header css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* start header content css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
+.header-content{
+    display: flex;
+    height: 450px;
+    background-color:gainsboro;
+  
+
+     
+ 
+}
+.header-content .rigth{
+    background-color:black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-family: sans-serif;
+   
+    
+}
+.header-content .rigth h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.header-content .rigth p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.header-content .rigth button{
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.header-content .left{
+    height: 100%;
+    background-color: red;
+   width: 50%;
+    
+}
+.header-content .left img{
+    height: 100%;
+    width: 100%;
+}
+
+/* end header content css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* start categories css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+.categories{
+    height: 600px;
+
+}
+.categories .content a:hover img{
+    visibility: hidden;
+    
+}
+.categories .content .top a:hover{
+    background-color:#c3d1e8;
+  
+}
+.categories .content .top a:hover label{
+    color:black;
+}
+
+.categories .content .bottom a:hover{
+    background-color:#c3d1e8;
+  
+}
+.categories .content .bottom a:hover label{
+    color:black;
+}
+
+
+.content h1{
+    margin-bottom:30px;
+    margin-top: 50px;
+}
+
+.categories .content{
+    width: 80%;
+    height: 65%;
+    margin: auto;
+
+}
+.categories .content .top{
+    display: flex;
+    height: 170px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.categories .content .bottom{
+ 
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.categories .content .top a{
+    position: relative;
+}
+.categories .content .top a label{
+    position: absolute;
+    top: 70px;
+     left: 40px;
+    color:white;
+  
+    text-align: center;
+    font-weight: bold;
+}
+.categories .content .bottom a{
+    position: relative;
+}
+.categories .content .bottom a label{
+    position: absolute;
+    top: 100px;
+     left: 120px;
+    color:white;
+  
+    text-align: center;
+    font-weight: bold;
+}
+
+.categories .content .top a img{
+    width: 170px;
+    height:100%;
+    border-radius: 10px;
+   
+    
+}
+.categories .content .bottom a{
+   height: 100%;
+   width: 49.5%;
+  
+}
+.categories .content .bottom a img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+ } 
+ /* end categories css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
+/* start browseBy css*/
+/*/////////////////////////////////////////////////////////////////////////*/
+ .browseBy,.features{
+   height: 350px;
+   width: 100%;
+  
+ }
+.browseBy .browseContent,.features .featuresContent{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+ 
+}
+.browseBy .browseContent h1,.features .featuresContent h1{
+    margin-bottom: 30px;
+}
+.browseImages,.featuresImages{
+    width: 100%;
+    height: 55%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.browseImages a{
+    height: 100%;
+    width: 24%;
+}
+.featuresImages a{
+    height: 100%;
+    width: 16%;
+}
+.browseImages img,.featuresImages img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+.browseBy .browseContent .browseImages a,.features .featuresContent .featuresImages a{
+    position: relative;
+}
+.browseBy .browseContent .browseImages a label{
+    position: absolute;
+    top: 70px;
+     left: 70px;
+    color:white;
+  
+    text-align: center;
+    font-weight: bold;
+}
+.features .featuresContent .featuresImages a label{
+    position: absolute;
+    top: 70px;
+     left: 50px;
+    color:white;
+  
+    text-align: center;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.browseBy .browseContent .browseImages a:hover img,.features .featuresContent .featuresImages a:hover img{
+    visibility: hidden;
+    
+}
+
+.browseBy .browseContent .browseImages a:hover,.features .featuresContent .featuresImages a:hover{
+    background-color:#c3d1e8;
+  
+}
+
+
+.browseBy .browseContent .browseImages a:hover label,.features .featuresContent .featuresImages a:hover label{
+    color:black;
+}
+
+/* start Discover */
+.discover{
+    height: 550px;
+    background-color: #d8eeee;
+    padding: 40px;
+}
+.discoverContent{
+    width: 80%;
+    margin: 50px auto;
+  
+}
+
+.discover .discoverContent .numbers{
+    width: 100%;
+    display: flex;
+
+}
+.discover .discoverContent .numbers h1{
+    font-size: 40px;
+}
+.discover .discoverContent .numbers .rigth{
+    margin-right: 50px;
+}
+
+.discover .discoverContent .charts{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.discover .discoverContent .charts .col-1,
+.discover .discoverContent .charts .col-2,
+.discover .discoverContent .charts .col-3,
+.discover .discoverContent .charts .col-4{
+    width: 22%;
+}
+.discover .discoverContent .charts img{
+  width: 100px;
+  height: 100px;
+}
+/*start brand*/
+/*//////////////////////////////////////*/
+.brand{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    
+   
+}
+.brand .left{
+   width: 35%;
+    
+   display: flex;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    
+
+  
+}
+.brand .left h1{
+align-self: center;
+}
+.brand .rigth{
+    width: 65%;
+     height: 100%;
+    background-image: url("images/sound.jpg");
+    background-repeat: no-repeat;
+   background-size:cover;
+    background-attachment: fixed;
+   
+   
+
+  
+}
+.brand .rigth .col-1,
+.brand .rigth .col-2,
+.brand .rigth .col-3,
+.brand .rigth .col-4
+{
+display: flex;
+width: 100%;
+justify-content: space-around;
+margin-bottom: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.brand .rigth img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+}
+/*end brand*/
+/*//////////////////////////////////////*/
+
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color: white;
+  
+}
+.footer .top{
+    height: 300px;
+  
+}
+.footer .top h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+
+}
+.footer .top a{
+    display: inline-block;
+    width:100%;
+    text-align: center;
+     text-decoration: none;
+    font-size: 35px;
+    color: green;
+}
+.footer .top a:hover{
+    opacity: .5;
+}
+.footer-social img{
+    width: 20px;
+    height: 20px;
+}
+.footer .bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+   margin: auto;
+}
+.footer .bottom ul{
+    list-style-type: none;
+}
+.footer .bottom ul li{
+  padding-top: 10px;
+}
+.footer .bottom .footer-social {
+    width: 8%;
+}
+.footer .bottom .footer-social ul{
+    display: flex;
+    justify-content: space-between;
+ 
+   
+
+}
+.footer .bottom ul li a{
+    text-decoration: none;
+    color: gray;
+    opacity: .7;
+}
+.footer .bottom ul li a:hover{
+    opacity: 1;
+}
+.footer .bottom p{
+    font-weight: bold;
+   
+}
+.footer .copyandrights{
+    text-align: center;
+    margin-top: 50px;
+}
